@@ -2,7 +2,6 @@ import React from "react";
 
 const Pages = (props) => {
   const pageNumbers = [];
-
   for (let i = 1; i <= Math.ceil(props.totalItems / props.itemsPerPage); i++) {
     pageNumbers.push(i);
   }
